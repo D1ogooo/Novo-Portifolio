@@ -7,7 +7,7 @@ export const FirstCardsInfo = [
  {
   id: 0,
   img: `${FirstImageSevico}`,
-  text: "Desenvolvimento de web",
+  text: "Desenvolvimento web",
  },
  {
   id: 1,
