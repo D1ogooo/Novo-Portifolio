@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 
 export const Container = styled.div`
  width: 95%;
@@ -6,78 +6,75 @@ export const Container = styled.div`
 `
 
 export const PaiMain = styled.div`
- margin-top: 100px;
+ margin-top: 6.25rem;
  display: flex;
  align-items: center;
  justify-content: space-evenly;
 `
 
 export const ButtonLinkedin = styled.a`
- border-radius: 50px;
+ border-radius: 3.125rem;
  text-decoration: none;
-
- margin: 10px;
- margin-left: 2px;
- background: #9b27dfd8;
+ margin: 0.625rem;
+ margin-left: 0.125rem;
+ background-color: ${(props) => props.theme.colors.background_button};
  cursor: pointer;
  border: none;
- box-shadow: 1px 3px 4px 0px rgba(132, 19, 224, 0.5);
+ /* box-shadow: 1px 3px 4px 0px rgba(132, 19, 224, 0.5); */
 
  display: inline-flex;
- padding: 16px 36px;
+ padding: 1rem 2.25rem;
  align-items: flex-start;
- gap: 10px;
+ gap: 0.625rem;
 
- color: #FFF;
- font-family: 'Inter';
- font-size: 13px;
+ color: #fff;
+ font-family: "Inter";
+ font-size: 0.8125rem;
  font-style: normal;
- font-weight: 600;
+ font-weight: 500;
  line-height: normal;
 `
 
 export const ButtonGitHub = styled.a`
- border-radius: 50px;
+ border-radius: 3.125rem;
  text-decoration: none;
- background: #9b27dfd8;
+ background-color: ${(props) => props.theme.colors.background_button};
  cursor: pointer;
  border: none;
- box-shadow: 1px 3px 4px 0px rgba(132, 19, 224, 0.5);
+ /* box-shadow: 0.0625rem 0.1875rem 0.25rem 0rem rgba(132, 19, 224, 0.5); */
 
  display: inline-flex;
- padding: 16px 36px;
+ padding: 1rem 2.25rem;
  align-items: flex-start;
- gap: 10px;
+ gap: 0.625rem;
 
- color: #FFF;
- font-family: 'Inter';
- font-size: 13px;
+ color: #fff;
+ font-family: "Inter";
+ font-size: 0.8125rem;
  font-style: normal;
- font-weight: 600;
+ font-weight: 500;
  line-height: normal;
 `
 
 export const Left = styled.div`
  h1 {
   color: ${({ theme }) => theme.colors.LetraPrincipal};
-  font-family: 'Sora';
-  font-size: 48px;
+  font-family: "Sora";
+  font-size: 3rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
  }
 
  p {
-  padding-left: 5px;
-  color: #6E7275;
-  font-family: Inter;
-  font-size: 16px;
+  padding-left: 0.3125rem;
+  color: #6e7275;
+  font-family: "Inter";
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 1.625rem;
  }
 `
 
-export const Right = styled.div`
- 
-`
+export const Right = styled.div``

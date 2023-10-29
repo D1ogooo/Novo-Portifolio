@@ -1,8 +1,9 @@
 import { HeaderS, Logo, SwitchTheme, Pai } from './style'
 import { Container } from './style'
+// import { Switch } from '../Switch';
+import { DarkTheme } from '../../styles/theme';
 import { IoMoonOutline, IoSunnyOutline } from "react-icons/io5";
 import Icon from '../../assets/bx-expand-horizontal.svg'
-import { DarkTheme } from '../../styles/theme';
 
 function Header({handleTheme, actualTheme}) {
  return (
@@ -21,12 +22,11 @@ function Header({handleTheme, actualTheme}) {
       <li><a href="#">Minhas habilidades</a></li>
      </ul>
      <SwitchTheme onClick={handleTheme}>
-        {actualTheme === DarkTheme ? 
-  (<IoMoonOutline onClick={handleTheme} />)
-             :
-    (<IoSunnyOutline  />)}
-     </SwitchTheme>
-    </Pai>
+    {actualTheme === DarkTheme ? 
+   (<IoMoonOutline onClick={handleTheme}/>):(<IoSunnyOutline />)}
+    </SwitchTheme>
+     {/* <Switch/> */}
+     </Pai>
     </Container>
    </HeaderS>
   </>

@@ -1,9 +1,9 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const Container = styled.div`
  width: 95%;
  margin: 0 auto;
- margin-top: 24px;
+ margin-top: 1.5rem;
 `
 
 export const HeaderS = styled.header`
@@ -11,7 +11,7 @@ export const HeaderS = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 66px;
+  gap: 4.125rem;
  }
 
  li {
@@ -20,9 +20,9 @@ export const HeaderS = styled.header`
 
  a {
   text-decoration: none;
-  color: #6E7275;
-  font-family: Inter;
-  font-size: 20px;
+  color: #6e7275;
+  font-family: "Inter";
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -31,15 +31,15 @@ export const HeaderS = styled.header`
 
 export const SwitchTheme = styled.div`
  background-color: #fff;
- padding: 10px;
- border-radius: 25px;
- width: 49px;
- height: 50px;
+ padding: 0.625rem;
+ border-radius: 1.5625rem;
+ width: 3.0625rem;
+ height: 3.125rem;
 
  cursor: pointer;
  svg {
-  width: 30px;
-  height: 30px;
+  width: 1.875rem;
+  height: 1.875rem;
  }
 `
 
@@ -51,11 +51,11 @@ export const Pai = styled.div`
 
 export const Logo = styled.div`
  background-color: #fff;
- padding: 5px;
- border-radius: 20px 2px 20px 2px;
+ padding: 0.3125rem;
+ border-radius: 1.25rem 0.125rem 1.25rem 0.125rem;
 
  img {
-  width: 36px;
-  height: 36px;
+  width: 2.25rem;
+  height: 2.25rem;
  }
 `
