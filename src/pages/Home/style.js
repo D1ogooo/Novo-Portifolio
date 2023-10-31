@@ -17,7 +17,7 @@ export const ButtonLinkedin = styled.a`
  text-decoration: none;
  margin: 0.625rem;
  margin-left: 0.125rem;
- background-color: ${(props) => props.theme.colors.background_button};
+ background-color: ${({ theme }) => theme.colors.background_button};
  cursor: pointer;
  border: none;
  /* box-shadow: 1px 3px 4px 0px rgba(132, 19, 224, 0.5); */
@@ -38,7 +38,7 @@ export const ButtonLinkedin = styled.a`
 export const ButtonGitHub = styled.a`
  border-radius: 3.125rem;
  text-decoration: none;
- background-color: ${(props) => props.theme.colors.background_button};
+ background-color: ${({ theme }) => theme.colors.background_button};
  cursor: pointer;
  border: none;
  /* box-shadow: 0.0625rem 0.1875rem 0.25rem 0rem rgba(132, 19, 224, 0.5); */

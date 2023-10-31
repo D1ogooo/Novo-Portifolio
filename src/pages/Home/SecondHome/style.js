@@ -20,31 +20,62 @@ export const Pai = styled.div`
 export const Card = styled.section`
  background-color: ${({ theme }) => theme.colors.card};
  text-align: center;
- padding-top: 5rem;
+ padding-top: 3.7rem;
  border-radius: 6px 36px;
  margin-top: -2.25rem;
  padding-left: 50px;
  padding-right: 50px;
  width: 16rem;
- height: 250px;
+ height: 280px;
  /* height: 310px;  é bom para usar mais para frente*/
-
  img {
   height: 56px;
   width: 56px;
  }
 
  p {
-  color: ${(props) => props.theme.colors.Title};
+  color: ${({ theme }) => theme.colors.Title};
   text-align: center;
   font-family: "Inter";
-  font-size: 1.125rem;
+  font-size: 0.9rem;
+  width: 10rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5625rem;
+  line-height: 1.3rem;
+  /* transition: 500ms all; */
+ }
+
+ #button_open {
+  cursor: pointer;
  }
 
  @media (max-width: 1280px) {
   margin-top: 2.25rem;
+ }
+`
+
+export const Detail = styled.div`
+ width: 198px;
+ max-height: 90px;
+ overflow-y: auto;
+ transition: 0.3s all;
+`
+
+export const VerMais = styled.div`
+ margin-top: 5px;
+
+ p {
+  color: ${({ theme }) => theme.colors.detail_text};
+ }
+`
+
+export const ButtonDetails = styled.button`
+ border: none;
+ background: none;
+ 
+ img {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
  }
 `

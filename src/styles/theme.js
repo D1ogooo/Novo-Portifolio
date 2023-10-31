@@ -1,14 +1,3 @@
-export const DarkTheme = {
- colors: {
-  background: "#171717;",
-  background_button: "#b655eebc;",
-  LetraPrincipal: "#b3b7bb;",
-  title: "#EFF8FF;",
-  card: "#EFF8FF;",
-  paragraph: "#403937;",
- },
-}
-
 export const LightTheme = {
  colors: {
   background: "#FFF;",
@@ -16,6 +5,19 @@ export const LightTheme = {
   LetraPrincipal: "#293145;",
   title: "#293145;",
   card: "#F3F2F2;",
+  detail_text: "#8D8686",
+  paragraph: "#403937;",
+ },
+}
+
+export const DarkTheme = {
+ colors: {
+  background: "#171717;",
+  background_button: "#b655eebc;",
+  LetraPrincipal: "#b3b7bb;",
+  title: "#EFF8FF;",
+  card: "#EFF8FF;",
+  detail_text: "#8D8686",
   paragraph: "#403937;",
  },
 }

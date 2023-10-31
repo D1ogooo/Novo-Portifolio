@@ -6,7 +6,7 @@ import Header from "./components/Header"
 import Home from "./pages/Home"
 
 function App() {
- const [theme, setTheme] = useState(DarkTheme)
+ const [theme, setTheme] = useState(LightTheme)
  const handleTheme = () => {
   setTheme(theme === DarkTheme ? LightTheme : DarkTheme)
  }
