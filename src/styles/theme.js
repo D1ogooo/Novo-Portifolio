@@ -7,6 +7,7 @@ export const LightTheme = {
   card: "#F3F2F2;",
   detail_text: "#8D8686",
   paragraph: "#403937;",
+  brand_yellow_light: "#F1E9C9",
  },
 }
 

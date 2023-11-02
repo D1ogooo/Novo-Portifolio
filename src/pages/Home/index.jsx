@@ -1,6 +1,7 @@
 import { Container, ButtonLinkedin, ButtonGitHub } from "./style"
 import { PaiMain, Left, Right } from "./style"
-import { SecondHome } from "./SecondHome"
+import { MeusServicos } from "./SecondHome"
+import { Projetos } from "./ThirdHome"
 import PrincipalImage from "../../assets/Working from anywhere-rafiki 1.svg"
 
 function Home() {
@@ -28,7 +29,8 @@ function Home() {
       <img src={PrincipalImage} />
      </Right>
     </PaiMain>
-    <SecondHome />
+    <MeusServicos />
+    <Projetos />
    </Container>
   </>
  )

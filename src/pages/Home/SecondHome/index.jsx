@@ -6,7 +6,7 @@ import { FirstCardsInfo, DetalhesServicos } from "../../../data"
 import ArrowDown from "../../../assets/arrow-down.svg"
 import ArrowUp from "../../../assets/arrow-up.svg"
 
-export function SecondHome() {
+export function MeusServicos() {
  let [open, setOpen] = useState(false)
 
  let option = (card_id) => {

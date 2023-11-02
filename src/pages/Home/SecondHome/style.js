@@ -72,7 +72,7 @@ export const VerMais = styled.div`
 export const ButtonDetails = styled.button`
  border: none;
  background: none;
- 
+
  img {
   width: 22px;
   height: 22px;
