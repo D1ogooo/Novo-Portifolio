@@ -10,6 +10,14 @@ export const Card = styled.div`
  margin-top: 400px;
 
  p {
-  
  }
+`
+
+export const ButtonLinkedin = styled.button``
+
+export const ButtonGithub = styled.button``
+
+export const LinksPai = styled.div`
+ display: flex;
+ gap: 5px;
 `

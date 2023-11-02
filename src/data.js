@@ -3,6 +3,12 @@ import SecondImageSevico from "./assets/figma.svg"
 import ThirdImageSevico from "./assets/bx-devices.svg"
 import ForImageServico from "./assets/nodejs-plain.svg"
 
+import FirstProjectImage from "./assets/violeta image.png"
+import SecondProjectImage from "./assets/foodjp image.png"
+import ThirdProjectImage from "./assets/foodjp image.png"
+import ForProjectImage from "./assets/capsula do tempo.png"
+import FiveProjectImage from "./assets/api de usuarios.png"
+
 export const FirstCardsInfo = [
  {
   id: 0,
@@ -48,22 +54,38 @@ export const DetalhesServicos = [
 export const CardProjetos = [
  {
   id: 0,
-  img: "",
+  img: `${FirstProjectImage}`,
   text: "",
+  linkGithub: "https://github.com/D1ogooo/Violeta---Frontend",
+  linkProjeto:
+   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg",
  },
  {
   id: 1,
-  img: "",
+  img: `${SecondProjectImage}`,
   text: "",
+  linkGithub: "",
+  linkLinkedin: "",
  },
  {
   id: 2,
-  img: "",
+  img: `${ThirdProjectImage}`,
   text: "",
+  linkGithub: "",
+  linkLinkedin: "",
  },
  {
   id: 3,
-  img: "",
+  img: `${ForProjectImage}`,
   text: "",
+  linkGithub: "",
+  linkLinkedin: "",
+ },
+ {
+  id: 4,
+  img: `${FiveProjectImage}`,
+  text: "",
+  linkGithub: "",
+  linkLinkedin: "",
  },
 ]
